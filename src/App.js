@@ -80,11 +80,11 @@ function App() {
                 the PDF version. (You're still welcome to check out the rest of
                 the site!)
               </p>
-              <FontAwesomeIcon
+              <a href="https://drive.google.com/file/d/1iT3xoXZ28y38mLsnpQhXW-f_0RP8gZgt/view?usp=sharing" target='_blank'><FontAwesomeIcon
                 icon="file-alt"
                 size="6x"
                 className="resume-icon"
-              />
+              /></a>
               <br></br>
               <small>Resume</small>
             </div>
