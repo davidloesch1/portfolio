@@ -228,25 +228,6 @@ function App() {
               </div>
             </div>
 
-            <div class="card">
-              <img src={simon} class="card-img-top" alt="to-do image" />
-              <div class="card-body">
-                <h5 class="card-title">Classic Simon Game</h5>
-                <p class="card-text">
-                  This is my take on a classic Simon Game of Memorization. It
-                  uses JavaScript, HTML, and CSS. It was a great way to learn
-                  about the asynchronous nature of Javascript, as that presented
-                  several learning challenges.
-                </p>
-                <a
-                  href="https://davidloesch1.github.io/Simon_game/"
-                  target="_blank"
-                  class="btn btn-primary"
-                >
-                  Check it out
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
