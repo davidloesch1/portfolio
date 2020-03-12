@@ -81,7 +81,7 @@ function App() {
                 the site!)
               </p>
               <a
-                href="https://drive.google.com/file/d/1iT3xoXZ28y38mLsnpQhXW-f_0RP8gZgt/view?usp=sharing"
+                href="./assets/David_Loesch_Resume.pdf"
                 target="_blank"
               >
                 <FontAwesomeIcon
