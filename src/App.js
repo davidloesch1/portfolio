@@ -47,7 +47,7 @@ function App() {
       {/* Start of the About Section */}
       <div className="about">
         <div className="about-row">
-          <div className="about-col">
+          <div className="about-col profile">
             <h1>Hi, I'm David.</h1>
             <p>
               <b>Full-Stack Developer.</b> Wanderer. Motorcycle Enthusiast.
@@ -76,8 +76,7 @@ function App() {
               <h3>RESUME</h3>
               <hr></hr>
               <p>
-                If you only have 6 seconds to spare, check out the highlights to
-                the right. If you would prefer a classic resume, click below for
+                If you only have 6 seconds to spare, check out the highlights in the 6-Second Box. If you would prefer a classic resume, click below for
                 the PDF version. (You're still welcome to check out the rest of
                 the site!)
               </p>
