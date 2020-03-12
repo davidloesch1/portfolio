@@ -3,6 +3,7 @@ import profile from "./images/profile.jpg";
 import todo_img from "./images/todo_img.png";
 import simon from "./images/simon.png";
 import storyboard from "./images/storyboard.png"
+import resume from './assets/David_Loesch_Resume.pdf'
 import "./App.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -81,7 +82,7 @@ function App() {
                 the site!)
               </p>
               <a
-                href="./assets/David_Loesch_Resume.pdf"
+                href={resume}
                 target="_blank"
               >
                 <FontAwesomeIcon
