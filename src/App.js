@@ -3,6 +3,7 @@ import profile from "./images/profile.jpg";
 import todo_img from "./images/todo_img.png";
 import simon from "./images/simon.png";
 import storyboard from "./images/storyboard.png"
+import calendar from "./images/calendar.png"
 import resume from './assets/David_Loesch_Resume.pdf'
 import "./App.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -20,29 +21,15 @@ function App() {
   return (
     <>
       {/* Start of the Contact Header */}
-      <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-dark p-4">
-            <h4 class="text-white">Contact Info</h4>
-            <p class="text-white">678.899.0435</p>
-            <p class="text-white">davidloesch1@gmail.com</p>
+
+          <div class="bg-dark p-4 header">
+            <h1 class="text-white">David Loesch</h1>
+            <h6 class="text-white"> Full-Stack Developer</h6>
+            <p class="text-white phone" >678.899.0435</p>
+            <p class="text-white email" >davidloesch1@gmail.com</p>
             <span class="text-muted">Looking to work with amazing teams.</span>
           </div>
-        </div>
-        <nav class="navbar navbar-dark bg-dark">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarToggleExternalContent"
-            aria-controls="navbarToggleExternalContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </nav>
-      </div>
+
 
       {/* Start of the About Section */}
       <div className="about">
@@ -219,6 +206,24 @@ function App() {
                 </p>
                 <a
                   href="http://frail-story.surge.sh"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Check it out
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img src={calendar} class="card-img-top" alt="to-do image" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Calendar App
+                </h5>
+                <p class="card-text">
+                  This project was to work with Django's built in authentication features.  It was fun practicing the skills learned in Python and Django.  Deployed to Heroku
+                </p>
+                <a
+                  href="https://calendar-1.herokuapp.com/calendar/"
                   target="_blank"
                   class="btn btn-primary"
                 >
