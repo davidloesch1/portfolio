@@ -1,3 +1,6 @@
+.phone, .email {
+  margin-bottom: 0em;
+}
 .about {
   background-color: aquamarine;
   height: 100%;
