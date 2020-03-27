@@ -14,7 +14,6 @@ import {
   faFileAlt
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 library.add(fab, faCheckSquare, faCoffee, faFileAlt);
 
 function App() {
@@ -22,14 +21,38 @@ function App() {
     <>
       {/* Start of the Contact Header */}
 
-          <div class="bg-dark p-4 header">
-            <h1 class="text-white">David Loesch</h1>
-            <h6 class="text-white"> Full-Stack Developer</h6>
-            <p class="text-white phone" >678.899.0435</p>
-            <p class="text-white email" >davidloesch1@gmail.com</p>
-            <span class="text-muted">Looking to work with amazing teams.</span>
-          </div>
-
+      <div class="bg-dark p-4 header">
+        <h1 class="text-white">David Loesch</h1>
+        <h6 class="text-white"> Full-Stack Developer</h6>
+        <p class="text-white phone">678.899.0435</p>
+        <p class="text-white email">davidloesch1@gmail.com</p>
+        <span class="text-muted">Looking to work with amazing teams.</span>
+        <br />
+        <FontAwesomeIcon
+          icon={["fab", "linkedin"]}
+          size="3x"
+          className="link-icon"
+          onClick={() =>
+            window.open("https://www.linkedin.com/in/davidloesch1/", "_blank")
+          }
+        />
+        <FontAwesomeIcon
+          icon={["fab", "twitter-square"]}
+          size="3x"
+          className="link-icon"
+          onClick={() =>
+            window.open("https://twitter.com/davidlo92284111", "_blank")
+          }
+        />
+        <FontAwesomeIcon
+          icon={["fab", "github-square"]}
+          size="3x"
+          className="link-icon"
+          onClick={() =>
+            window.open("https://github.com/davidloesch1", "_blank")
+          }
+        />
+      </div>
 
       {/* Start of the About Section */}
       <div className="about">
@@ -37,9 +60,10 @@ function App() {
           <div className="about-col profile">
             <h1>Hi, I'm David.</h1>
             <p>
-              <b>Full-Stack Developer.</b> Wanderer. Motorcycle Enthusiast.
-              Curious by Nature. Amateur Artist. <b>Customer Service Expert.</b>{" "}
-              Entrepreneur. Teacher. Perpetual Learner.
+              <b className="focus">Full-Stack Developer.</b> Wanderer.
+              Motorcycle Enthusiast. Curious by Nature. Amateur Artist.{" "}
+              <b className="focus">Customer Service Expert.</b> Entrepreneur.
+              Teacher. Perpetual Learner.
             </p>
           </div>
           <div className="about-col">
@@ -63,14 +87,12 @@ function App() {
               <h3>RESUME</h3>
               <hr></hr>
               <p>
-                If you only have 6 seconds to spare, check out the highlights in the 6-Second Box. If you would prefer a classic resume, click below for
-                the PDF version. (You're still welcome to check out the rest of
-                the site!)
+                If you only have 6 seconds to spare, check out the highlights in
+                the 6-Second Box. If you would prefer a classic resume, click
+                below for the PDF version. (You're still welcome to check out
+                the rest of the site!)
               </p>
-              <a
-                href={resume}
-                target="_blank"
-              >
+              <a href={resume} target="_blank">
                 <FontAwesomeIcon
                   icon="file-alt"
                   size="6x"
@@ -79,6 +101,41 @@ function App() {
               </a>
               <br></br>
               <small>Resume</small>
+              <br></br>
+              <div className="tech-skills">
+                <FontAwesomeIcon
+                  icon={['fab', 'html5']}
+                  size="3x"
+                  className="link-icon"
+                />
+                <FontAwesomeIcon
+                  icon={['fab', 'css3-alt']}
+                  size="3x"
+                  className="link-icon"
+                /> 
+                <FontAwesomeIcon
+                  icon={['fab', 'js-square']}
+                  size="3x"
+                  className="link-icon"
+                />
+              </div>
+              <div className="tech-skills">
+                <FontAwesomeIcon
+                  icon={['fab', 'react']}
+                  size="3x"
+                  className="link-icon"
+                />
+                <FontAwesomeIcon
+                  icon={['fab', 'node-js']}
+                  size="3x"
+                  className="link-icon"
+                />
+                <FontAwesomeIcon
+                  icon={['fab', 'python']}
+                  size="3x"
+                  className="link-icon"
+                />
+              </div>
             </div>
           </div>
           <div className="resume-col">
@@ -216,11 +273,11 @@ function App() {
             <div class="card">
               <img src={calendar} class="card-img-top" alt="to-do image" />
               <div class="card-body">
-                <h5 class="card-title">
-                  Calendar App
-                </h5>
+                <h5 class="card-title">Calendar App</h5>
                 <p class="card-text">
-                  This project was to work with Django's built in authentication features.  It was fun practicing the skills learned in Python and Django.  Deployed to Heroku
+                  This project was to work with Django's built in authentication
+                  features. It was fun practicing the skills learned in Python
+                  and Django. Deployed to Heroku
                 </p>
                 <a
                   href="https://calendar-1.herokuapp.com/calendar/"
@@ -231,7 +288,6 @@ function App() {
                 </a>
               </div>
             </div>
-
           </div>
         </div>
       </div>

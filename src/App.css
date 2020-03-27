@@ -10,6 +10,14 @@
   flex-direction: row;
   justify-content: center;
 }
+.link-icon {
+  color: white;
+  margin-right: 10px;
+}
+.focus {
+  font-size: large;
+  line-height: normal;
+}
 .profile_pic {
   width: 100%;
   height: 100%;
@@ -49,6 +57,9 @@
   margin: 3vw;
   border: 15px solid #FF595E;
   text-align: center;
+}
+.tech-skills {
+  margin: 10px;
 }
 
 hr {
@@ -151,7 +162,7 @@ hr {
 }
 
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 400px) {
   .about-row {
     display: flex;
     flex-direction: column;
@@ -170,8 +181,9 @@ hr {
     margin-left: 1em;
   }
   .about-col {
-    width: 325px;
-    height: 325px;
+    box-sizing: border-box;
+    width: 87vw;
+    height: 87vw;
     margin: auto;
   }
   .resume-link > small {
@@ -192,5 +204,12 @@ hr {
   }
   .profile {
     height: auto;
+  }
+  .profile_pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #39393a;
   }
 }
