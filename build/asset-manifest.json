@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d26ebf1.chunk.css",
+    "main.js": "/static/js/main.c60fccf0.chunk.js",
+    "main.js.map": "/static/js/main.c60fccf0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c70048c8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c70048c8.js.map",
+    "static/js/2.273c10df.chunk.js": "/static/js/2.273c10df.chunk.js",
+    "static/js/2.273c10df.chunk.js.map": "/static/js/2.273c10df.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7ff52e2343efc5d1c415fa0691dd8cfa.js": "/precache-manifest.7ff52e2343efc5d1c415fa0691dd8cfa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6d26ebf1.chunk.css.map": "/static/css/main.6d26ebf1.chunk.css.map",
+    "static/js/2.273c10df.chunk.js.LICENSE.txt": "/static/js/2.273c10df.chunk.js.LICENSE.txt",
+    "static/media/David_Loesch_Resume.pdf": "/static/media/David_Loesch_Resume.2dfbdcd5.pdf",
+    "static/media/calendar.png": "/static/media/calendar.d1355cd3.png",
+    "static/media/profile.jpg": "/static/media/profile.9c2d2e93.jpg",
+    "static/media/simon.png": "/static/media/simon.7c0aa7ce.png",
+    "static/media/storyboard.png": "/static/media/storyboard.ad3eaea8.png",
+    "static/media/todo_img.png": "/static/media/todo_img.8fc3ba00.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c70048c8.js",
+    "static/js/2.273c10df.chunk.js",
+    "static/css/main.6d26ebf1.chunk.css",
+    "static/js/main.c60fccf0.chunk.js"
+  ]
+}
