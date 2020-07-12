@@ -42,7 +42,7 @@ function Projects() {
               <p class="card-text">
                 This is my take on a classic Simon Game of Memorization. It uses
                 JavaScript, HTML, and CSS. It was a great way to learn about the
-                asynchronous nature of Javascript, as that presented several
+                synchronous nature of Javascript, as that presented several
                 learning challenges.
               </p>
               <a
